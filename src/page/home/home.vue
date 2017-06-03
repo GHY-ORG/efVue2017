@@ -4,21 +4,20 @@
     <router-link to="Board">Go to Board</router-link>
   </div>
 </template>
-
 <script>
 export default {
   name: 'home',
-  data () {
+  data() {
     return {
       msg: 'Welcome to Your Home'
     }
   }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 

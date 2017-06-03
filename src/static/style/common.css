@@ -41,7 +41,7 @@ body {
   background-color: #FFF;
   /*padding: 10px;*/
   /*box-sizing:border-box;
-	padding-left: calc(100vw - 100%);*/
+  padding-left: calc(100vw - 100%);*/
   position: relative;
 }
 
@@ -464,6 +464,7 @@ th.active .arrow {
 
 .arrow {
   display: inline-block;
+  visibility: hidden;
   vertical-align: middle;
   width: 0;
   height: 0;
@@ -481,4 +482,8 @@ th.active .arrow {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid red;
+}
+
+.arrow.show {
+  visibility: visible;
 }
